@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Configuração da numeração (DSC03172 até DSC03233)
     const inicio = 3172;
-    const fim = 3233;
+    const fim = 3243;
     
     // Lista de arquivos. O loop abaixo preenche isso automaticamente.
     const listaDeFotos = [];
@@ -149,4 +149,5 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     window.addEventListener('scroll', revealOnScroll);
     revealOnScroll(); // Chama uma vez para mostrar o topo da página
+
 });
